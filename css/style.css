@@ -1,0 +1,308 @@
+/*
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Amatic SC', cursive;
+*/
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    line-height: 1.3em;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+#mt-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#mt-menu{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+   
+    display: block;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#mt-menu ul li{
+    display: inline;
+    margin: 0 5px;
+}
+
+#mt-menu a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#mt-header{
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#mt-header h1{
+    font-size: 50px;
+    padding: 120px 0 10px 0;
+    color:#666;
+}
+
+#mt-header p{
+    color:#323330;
+}
+
+#mt-header img{
+    border-radius: 100px;
+}
+
+#mt-showcase{
+    text-align: center;
+}
+
+
+.mt-showcase-box{
+    width: auto;
+    margin: 80px auto;
+    display: table; 
+
+}
+
+.mt-showcase-item{
+    width: 280px;
+    height: 280px;
+    border-radius: 150px;
+    float: left;
+   
+    margin: 10px 30px;   
+}
+
+.mt-showcase-item h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 90px 0 10px 0;
+    font-size: 50px;
+    color: #323330;
+    
+}
+
+.mt-showcase-item p{
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    color: #6b5c00
+}
+
+
+.js{
+     border: 1px solid #af9a0f;
+     background-color:#F0DB4F;
+}
+
+.java{
+    border: 1px solid #DFE3E5;
+    background-color: #F9FAFA;
+}
+
+.php{
+    border: 1px solid #2f3268;
+    background-color: #7C80B5;
+   
+}
+
+.php h2{
+    color: #ddd;
+}
+.php p{
+     color: #fff;
+}
+
+
+hr{
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+
+}
+
+
+#mt-projects h2{
+    font-size: 50px;
+    margin: 60px 0 80px 100px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #DFE3E5;
+    width: 60%;
+    color: #666
+
+}
+
+
+.mt-projects-icon{
+    float: left;
+    border: 0px solid black;
+    width: 150px;
+}
+
+article {
+    display: table;
+    margin-bottom: 50px;
+    border: 0px solid black;
+    
+}
+
+.mt-projects-body{
+    border: 0px solid black;
+    float: left;
+    width: 85%;
+    padding: 0 0 0 25px;
+}
+
+.mt-projects-body h1{
+    color:#2f3268;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    padding: 0 0 15px 0;
+}
+
+.mt-projects-body p{
+    color: #323330;
+}
+
+.mt-projects-body span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+}
+
+.mt-projects-body button{
+    float: left;
+    
+}
+
+.mt-projects-list{
+    display: block;
+    float: right;
+    padding-right: 50px;
+    margin: 10px;
+    
+}
+
+
+.mt-projects-list li{
+    border: 0px solid black;
+    display: inline;
+}
+
+.mt-projects-list li a{
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 2px;
+}
+
+
+#mt-about h2{
+    font-size: 50px;
+    margin: 60px 0 80px 100px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #DFE3E5;
+    width: 60%;
+    color: #666
+
+}
+
+.mt-about-socials{
+    margin: 30px 0;
+}
+
+.mt-about-socials li {
+    display: inline;
+}
+
+
+#mt-contact h2{
+    font-size: 50px;
+    margin: 60px 0 80px 100px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #DFE3E5;
+    width: 60%;
+    color: #666
+
+}
+
+
+
+
+
+/**/
+
+
+.mt-box--1{
+    width: 50%;
+    float: left;
+    border: 0px solid black;
+}
+
+.mt-box--2{
+    width: 50%;
+    float: left;
+    border: 0px solid black;
+}
+
+.mt-box--3{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.mt-btn{
+   height: 50px;
+   cursor: pointer;
+   text-transform: uppercase;
+
+}
+
+.mt-btn-primary-s,
+.mt-btn-primary-m,
+.mt-btn-primary-b{
+   background-color: #fff;
+   border: 2px solid #F0DB4F;
+   color: #6b5c00;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 0 20px;
+   font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.mt-btn-primary-m{
+    border: 1px solid #F0DB4F;
+    font-size: 15px;
+     padding: 0 10px;
+}
+
+.mt-projects-more{
+    margin: 30px 0;
+    display: block;
+    text-align: center;
+}
+
+
+.mt-clear-fix{
+    clear: both;
+}
